@@ -1,0 +1,55 @@
+{
+  "catalog": "b728b8b3a3a165ef",
+  "items": [
+    {
+      "id": "933fa215f8bebd9e81a466da391da3134740fb210d2c0eb4d3e24690bb65e863",
+      "source": "サーバー内で初めて総合戦力が\r\n2500000以上に到達",
+      "context": "menu/Canvas/UICanvas/CanvasContent/Page/ServerRankingRewardPopup(Clone)/UILayer/PopupWindowFrame/ContentArea2/Content/UserContent/Text/Text"
+    },
+    {
+      "id": "49e1beed9fd120b8e8fce12b76678f75df6c0083910f4b75b94e8eca1c27080d",
+      "source": "サーバー内で初めて総合戦力が\r\n2750000以上に到達",
+      "context": "menu/Canvas/UICanvas/CanvasContent/Page/ServerRankingRewardPopup(Clone)/UILayer/PopupWindowFrame/ContentArea2/Content/RewardScroll/Viewport/Content/ServerRankingRewardListContent(Clone)/DescriptionText"
+    },
+    {
+      "id": "f314b05b12161fd6d623a0529a23405a0c084758a335416c57c052d0fa3de889",
+      "source": "サーバー内でダメージが初めて150000000に到達",
+      "context": "menu/Canvas/UICanvas/CanvasContent/Page/ServerRankingRewardPopup(Clone)/UILayer/PopupWindowFrame/ContentArea2/Content/UserContent/Text/Text"
+    },
+    {
+      "id": "3e1140d76ae44939e34eec6430740bebd3229476ceb68ff32283d9f6361a0440",
+      "source": "サーバー内でダメージが初めて50000に到達",
+      "context": "menu/Canvas/UICanvas/CanvasContent/Page/ServerRankingRewardPopup(Clone)/UILayer/PopupWindowFrame/ContentArea2/Content/RewardScroll/Viewport/Content/ServerRankingRewardListContent(Clone)/DescriptionText"
+    },
+    {
+      "id": "64bf8d47248a65f48e835644bfb7b3cd99f5c4da4529385beb157b18f545792b",
+      "source": "サーバー内でダメージが初めて130000に到達",
+      "context": "menu/Canvas/UICanvas/CanvasContent/Page/ServerRankingRewardPopup(Clone)/UILayer/PopupWindowFrame/ContentArea2/Content/RewardScroll/Viewport/Content/ServerRankingRewardListContent(Clone)/DescriptionText"
+    },
+    {
+      "id": "66ff5aa9dfc227a01406d3f185db665019ebc13d2f8ad2243750389d377c7498",
+      "source": "～現在選択中のテーマ～",
+      "context": "menu/Canvas/UICanvas/CanvasContent/WindowState/RogueStateController(Clone)/PageParent/Page/RogueThemeSelectPage(Clone)/UILayer/Window/BannerArea/Motion/TextArea/TitleText"
+    },
+    {
+      "id": "4dec3cf1cb813e4978eac7e0792a87886e34cae60ee98fce515a59086bbd17c1",
+      "source": "チャレンジ報酬",
+      "context": "menu/Canvas/UICanvas/CanvasContent/WindowState/RogueStateController(Clone)/PageParent/Page/UI_Com_Scene_LeftIn_Center(Clone)/Control/RogueThemeTopPage(Clone)/UILayer/Window/RightTop/PointBtn/Button/TitleText"
+    },
+    {
+      "id": "1440c4cde3d16c6cd31fee254f4686168b5393e822e6345faa2ad2642441e42b",
+      "source": "<scale=0.7>おまかせ編成",
+      "context": "menu/Canvas/UICanvas/CanvasContent/WindowState/DeckStateController(Clone)/PageParent/Page/UI_Com_Scene_LeftIn_Center(Clone)/Control/DeckPage(Clone)/UILayer/RightMenu/HeaderButton/AutoSelectButton/DefaultState/Text"
+    },
+    {
+      "id": "dd459b3b779879d4dd90c71188555abddffb4929131f98de947d625528043d62",
+      "source": "<scale=0.8>編成リセット",
+      "context": "menu/Canvas/UICanvas/CanvasContent/WindowState/DeckStateController(Clone)/PageParent/Page/UI_Com_Scene_LeftIn_Center(Clone)/Control/DeckPage(Clone)/UILayer/RightMenu/HeaderButton/ResetButton/DefaultState/Text"
+    },
+    {
+      "id": "6f75fa9b67f80b1532a3bcd768d269032ce11f563f41393f370db936457d6155",
+      "source": "イベントTOP",
+      "context": "menu/Canvas/UICanvas/CanvasContent/WindowState/EventStateController(Clone)/PageParent/Page/FrontAdjunct/HeaderTitleCommon(Clone)/Text"
+    }
+  ]
+}

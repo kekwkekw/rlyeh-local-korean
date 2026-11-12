@@ -1,0 +1,272 @@
+[
+  {
+    "id": "master05-mission-level-pair",
+    "source": "ヴァイス17体のLvを155にする",
+    "scope": "ui",
+    "exact": "바이스 17명의 레벨 155 달성하기"
+  },
+  {
+    "id": "master05-rogue-reward-fullwidth",
+    "source": "レベル１２３報酬",
+    "scope": "ui",
+    "exact": "레벨 １２３ 보상"
+  },
+  {
+    "id": "master05-relic-flat-and-percent",
+    "source": "ルルイエ勢力の最大耐久+30%、被ダメージ-30%、魔法防御+200%、さらに+500",
+    "scope": "ui",
+    "exact": "루루이에 세력의 최대 내구도 +30%, 받는 피해 -30%, 마법 방어 +200%, 마법 방어 추가 +500"
+  },
+  {
+    "id": "master05-artifact-unique-restriction",
+    "source": "攻撃力+10％\r\n前衛が装備時クトゥルフの化身を付与\r\n<color=#ffa500>チーム内に一つまでしか装備できません</color=#ffa500>",
+    "scope": "ui",
+    "exact": "공격력 +10%\r\n전위가 장착하면 크툴루의 화신 부여\r\n<color=#ffa500>팀에 하나만 장착할 수 있습니다</color=#ffa500>"
+  },
+  {
+    "id": "master05-roster-heading-and-alias",
+    "source": "以下の☆3キャラクターの中から一体を選択して入手可能\r\n\r\n<対象キャラクター>\r\n・メイ=ユル\r\n・エカ・インティ",
+    "scope": "ui",
+    "exact": "다음 ☆3 캐릭터 중 한 명을 선택하여 획득 가능\r\n\r\n<대상 캐릭터>\r\n・메이=유루\r\n・에카 인티"
+  },
+  {
+    "id": "master05-recovery-reset-time",
+    "source": "闘技場の対戦可能回数を1回復します\r\n付与された対戦可能回数は5:00にリセットされます",
+    "scope": "ui",
+    "exact": "투기장 대전 가능 횟수를 1회 회복합니다\r\n추가된 대전 횟수는 5:00에 초기화됩니다"
+  },
+  {
+    "id": "master05-local-rogue-dictionary",
+    "source": "アポカリプスモードで恩寵を獲得した。",
+    "scope": "story-test",
+    "contains": "은총"
+  },
+  {
+    "id": "master05-local-name",
+    "source": "エカ・インティとキャピノラが来た。",
+    "scope": "story-test",
+    "contains": "에카 인티"
+  },
+  {
+    "id": "master05-local-citadel-name",
+    "source": "ルルイエの城壁を修復する。",
+    "scope": "story-test",
+    "contains": "성벽"
+  },
+  {
+    "id": "master05-local-material-name",
+    "source": "魔晶を使って強化する。",
+    "scope": "story-test",
+    "contains": "마정"
+  },
+  {
+    "id": "vermilion-in-sentence",
+    "source": "Ｇｅｎ．Ｃ．バーミリオンが来た。",
+    "scope": "story-test",
+    "contains": "버밀리온"
+  },
+  {
+    "id": "brava-in-sentence",
+    "source": "ブラヴァが来た。",
+    "scope": "story-test",
+    "contains": "브라바"
+  },
+  {
+    "id": "block-label-spacing-tags",
+    "source": "ブ<cspace=-2>ロッ<cspace=1>ク数",
+    "scope": "ui",
+    "exact": "저<cspace=-2>지<cspace=1> 수"
+  },
+  {
+    "id": "skill-name-acquire",
+    "source": "<size=90%>オートスキル1</size>\n歩む死の顕現習得",
+    "scope": "ui",
+    "exact": "<size=90%>오토 스킬 1</size>\n걷는 죽음의 현현 습득"
+  },
+  {
+    "id": "skill-name-upgrade",
+    "source": "<size=90%>オーバースキル</size>\n星の脈動強化",
+    "scope": "ui",
+    "exact": "<size=90%>오버 스킬</size>\n별의 맥동 강화"
+  },
+  {
+    "id": "dictionary-3",
+    "source": "エルダーショット",
+    "scope": "ui",
+    "exact": "엘더 샷"
+  },
+  {
+    "id": "dictionary-13",
+    "source": "回避率",
+    "scope": "ui",
+    "exact": "회피율"
+  },
+  {
+    "id": "dictionary-76",
+    "source": "回復率",
+    "scope": "ui",
+    "exact": "회복률"
+  },
+  {
+    "id": "dictionary-143",
+    "source": "ヴァイス",
+    "scope": "ui",
+    "exact": "바이스"
+  },
+  {
+    "id": "dictionary-151",
+    "source": "レベルリンク",
+    "scope": "ui",
+    "exact": "레벨 링크"
+  },
+  {
+    "id": "dictionary-153",
+    "source": "ルルイエ",
+    "scope": "ui",
+    "exact": "루루이에"
+  },
+  {
+    "id": "dictionary-170",
+    "source": "攻撃力",
+    "scope": "ui",
+    "exact": "공격력"
+  },
+  {
+    "id": "dictionary-172",
+    "source": "アーチャー",
+    "scope": "ui",
+    "exact": "아처"
+  },
+  {
+    "id": "dictionary-207",
+    "source": "アーティファクト",
+    "scope": "ui",
+    "exact": "아티팩트"
+  },
+  {
+    "id": "dictionary-272",
+    "source": "貫通率",
+    "scope": "ui",
+    "exact": "관통률"
+  },
+  {
+    "id": "dictionary-281",
+    "source": "邪神",
+    "scope": "ui",
+    "exact": "사신"
+  },
+  {
+    "id": "dictionary-299",
+    "source": "レンジャー",
+    "scope": "ui",
+    "exact": "레인저"
+  },
+  {
+    "id": "ui04-remaining-days",
+    "source": "あと37日",
+    "scope": "ui",
+    "exact": "37일 남음"
+  },
+  {
+    "id": "ui04-time-components",
+    "source": "7日18時間05分09秒",
+    "scope": "ui",
+    "exact": "7일 18시간 05분 09초"
+  },
+  {
+    "id": "ui04-duration",
+    "source": "02時間15分",
+    "scope": "ui",
+    "exact": "02시간 15분"
+  },
+  {
+    "id": "ui04-chapter",
+    "source": "第37章",
+    "scope": "ui",
+    "exact": "제37장"
+  },
+  {
+    "id": "ui04-stage",
+    "source": "ステージ15",
+    "scope": "ui",
+    "exact": "스테이지 15"
+  },
+  {
+    "id": "ui04-countdown-tag",
+    "source": "<style=\"N\">43</style>秒",
+    "scope": "ui",
+    "exact": "<style=\"N\">43</style>초"
+  },
+  {
+    "id": "ui04-auto-speed",
+    "source": "オート速度【待ち時間1.75秒】",
+    "scope": "ui",
+    "exact": "자동 진행【대기 1.75초】"
+  },
+  {
+    "id": "ui04-progress-tags",
+    "source": "進行<cspace=2>度<cspace=0>: 17/238",
+    "scope": "ui",
+    "exact": "진행<cspace=2>도<cspace=0>: 17/238"
+  },
+  {
+    "id": "ui04-date",
+    "source": "2026/12/9 11:05 まで",
+    "scope": "ui",
+    "exact": "2026/12/9 11:05까지"
+  },
+  {
+    "id": "ui04-cancel-spacing",
+    "source": "<cspace=-1>キ<cspace=-3>ャ<cspace=0>ンセル",
+    "scope": "ui",
+    "exact": "<cspace=-1>취<cspace=-3>소<cspace=0>"
+  },
+  {
+    "id": "ui04-download-indent",
+    "source": "<indent=-7%><cspace=-3>ダウンロ<cspace=-8>ード",
+    "scope": "ui",
+    "exact": "<indent=-7%><cspace=-3>다운로<cspace=-8>드"
+  },
+  {
+    "id": "ui06-rank-power",
+    "source": "サーバー内で初めて総合戦力が\r\n2500000以上に到達",
+    "scope": "ui",
+    "exact": "서버 최초 총 전투력\r\n2500000 이상 달성"
+  },
+  {
+    "id": "ui06-rank-power-grouped",
+    "source": "サーバー内で初めて総合戦力が\r\n2,750,000以上に到達",
+    "scope": "ui",
+    "exact": "서버 최초 총 전투력\r\n2,750,000 이상 달성"
+  },
+  {
+    "id": "ui06-rank-damage",
+    "source": "サーバー内でダメージが初めて150000000に到達",
+    "scope": "ui",
+    "exact": "서버 최초 피해량 150000000 달성"
+  },
+  {
+    "id": "ui06-rank-damage-wide",
+    "source": "サーバー内でダメージが初めて１３００００に到達",
+    "scope": "ui",
+    "exact": "서버 최초 피해량 １３００００ 달성"
+  },
+  {
+    "id": "ui06-formation-auto",
+    "source": "<scale=0.7>おまかせ編成",
+    "scope": "ui",
+    "exact": "<scale=0.7>자동 편성"
+  },
+  {
+    "id": "ui06-formation-reset",
+    "source": "<scale=0.8>編成リセット",
+    "scope": "ui",
+    "exact": "<scale=0.8>편성 초기화"
+  },
+  {
+    "id": "ui06-potential-short",
+    "source": "震土の噴壊",
+    "scope": "ui",
+    "exact": "대지 파열"
+  }
+]

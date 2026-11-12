@@ -1,0 +1,95 @@
+アスタリーゼ	아스타리제	given
+アテナ	아테나	given
+アリスノリス	아리스노리스	given
+アーカム	아캄	place
+アーフナ	아프나	given
+イグナ	이그나	given
+イリム	이리무	given
+イヴ・メサイア	이브 메시아	given
+ウェンディ	웬디	given
+ウロロス	우로로스	given
+エカ・インティ	에카 인티	given
+エルディ	엘디	given
+エレノワール	엘레누아르	given
+エヴァラス・フラウ	에바라스 프라우	given
+カルコサ	카르코사	place
+カルヴァレーナ	카르바레나	given
+ガタラーシャ	가타라샤	given
+ガーネシオン	가네시온	given
+キャピノラ	캐피노라	given
+クアローラ	쿠아로라	given
+クトゥグア	크투가	given
+クトゥルフ	크툴루	given
+ク＝ルヴィ	쿠=루비	given
+グラン・ヴェルノ	그란 베르노	given
+グリモイータ	그리모이터	given
+ケイオス	카오스	org
+サイオン	사이온	given
+シェメラーヌ	셰메라누	given
+シェルン	셰른	given
+シゼル＝メ	시젤=메	given
+シャーコット	샤코트	given
+シャーリー	셜리	given
+シュアン	슈안	given
+シリウス３	시리우스3	given
+ゼウス	제우스	given
+ゼラニュート	제라뉴트	given
+ゼルトナ	제르토나	given
+ソフィー	소피	given
+タトゥメ	타투메	given
+ダゴン	다곤	given
+チェイシィ	체이시	given
+テトラ	테트라	given
+ディオネ	디오네	given
+ディシア	디시아	given
+トレイラ	트레이라	given
+ネア・ウルム	네아 우르무	given
+ネオン	네온	given
+ネフェスティス	네페스티스	given
+ネーフェ＝ジアー	네페=지아	given
+ノイシス	노이시스	given
+ノーティア・ゾーノ	노티아 조노	given
+ノーデンス	노덴스	given
+ハスター	하스터	given
+ヒュプノス	히프노스	given
+ピオニー	피오니	given
+フィロス	필로스	given
+フラーナ＝フリーニ	프라나=프리니	given
+フーシャ	푸샤	given
+ブラヴァ	브라바	given
+プシュキア	프슈키아	given
+プリゾナ	프리조나	given
+ホルテウス	호르테우스	given
+ポポロット	포포로트	given
+ポーラシェンテ	폴라셴테	given
+マグナラ	마그나라	given
+マッドシーカー	매드 시커	given
+マリア・シュピール	마리아 슈필	given
+ミャウラ	먀우라	given
+ミューゼ	뮤제	given
+ミーティリー	미티리	given
+ムスクーマ	무스쿠마	given
+ムルミィ・ゾォム	무르미 좀	given
+メアジェリー	메아젤리	given
+メアリー	메리	given
+メイ＝ユル	메이=유루	given
+モネモネ	모네모네	given
+ユラナ・ゾッタ	유라나 조타	given
+ヨグソトース	요그 소토스	given
+ヨグ＝ソトース	요그 소토스	given
+ラツィーネ	라치네	given
+ララヴァ	라라바	given
+リフル	리플	given
+リヴァシー	리바시	given
+ルゥ=ルルサ	루=루루사	given
+ルオシェン	루오셴	given
+ルセ=ルルカ	루세=루루카	given
+ルナリス	루나리스	given
+ルルイエ	루루이에	place
+ルーチェルト	루체르토	given
+レヴナント	레버넌트	given
+ロフィ	로피	given
+ローレン	로렌	given
+ヴィヴィア	비비아	given
+石造都市ルルイエ	석조 도시 루루이에	given
+Ｇｅｎ．Ｃ．バーミリオン	Gen. C. 버밀리온	given

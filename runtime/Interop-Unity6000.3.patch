@@ -1,0 +1,24 @@
+diff --git a/Il2CppInterop.Runtime/Injection/Hooks/Class_GetFieldDefaultValue_Hook.cs b/Il2CppInterop.Runtime/Injection/Hooks/Class_GetFieldDefaultValue_Hook.cs
+index cf06db2..11cbeee 100644
+--- a/Il2CppInterop.Runtime/Injection/Hooks/Class_GetFieldDefaultValue_Hook.cs
++++ b/Il2CppInterop.Runtime/Injection/Hooks/Class_GetFieldDefaultValue_Hook.cs
+@@ -123,6 +123,19 @@ namespace Il2CppInterop.Runtime.Injection.Hooks
+                 if (getStaticFieldValueTargets.Count > 4)
+                     return getStaticFieldValueTargets[^2];
+ 
++                // Upstream PR #291: Unity 6000.3 inlines the literal-field path.
++                // Before its first return, the first call resolves the field default
++                // and the second reads the constant blob. Follow the former.
++                var unityVersion = Il2CppInteropRuntime.Instance.UnityVersion;
++                if (getStaticFieldValueTargets.Count == 2 &&
++                    (unityVersion.Major > 6000 ||
++                     (unityVersion.Major == 6000 && unityVersion.Minor >= 3)))
++                {
++                    var resolved = getStaticFieldValueTargets[0];
++                    Logger.Instance.LogInformation("Unity 6000.3 field-default resolver: selected first of two calls at 0x{Address:X}", resolved.ToInt64());
++                    return resolved;
++                }
++
+                 var getStaticFieldValueInternal = getStaticFieldValueTargets[^1];
+                 Logger.Instance.LogTrace("Field::StaticGetValueInternal: 0x{GetStaticFieldValueInternalAddress}", getStaticFieldValueInternal.ToInt64().ToString("X2"));
+ 

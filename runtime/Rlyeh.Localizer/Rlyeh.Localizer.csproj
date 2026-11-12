@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><TargetFramework>net6.0</TargetFramework><Nullable>enable</Nullable><ImplicitUsings>enable</ImplicitUsings><LangVersion>latest</LangVersion><AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <LoaderDir Condition="'$(LoaderDir)'==''">$(GameDir)\BepInEx\core</LoaderDir>
+    <InteropDir Condition="'$(InteropDir)'==''">$(GameDir)\BepInEx\interop</InteropDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(NativeCatalogProbe)'=='true'"><DefineConstants>$(DefineConstants);NATIVE_CATALOG_PROBE</DefineConstants></PropertyGroup>
+  <ItemGroup Condition="'$(NativeCatalogProbe)'=='true'"><Compile Include="..\..\tests\NativeCatalogProbe.cs" /></ItemGroup>
+  <PropertyGroup Condition="'$(UiLayoutProbe)'=='true'"><DefineConstants>$(DefineConstants);UI_LAYOUT_PROBE</DefineConstants></PropertyGroup>
+  <ItemGroup Condition="'$(UiLayoutProbe)'=='true'"><Compile Include="..\..\tests\UiLayoutProbe.cs" /></ItemGroup>
+  <PropertyGroup Condition="'$(TmpRegressionProbe)'=='true'"><DefineConstants>$(DefineConstants);TMP_REGRESSION_PROBE</DefineConstants></PropertyGroup>
+  <ItemGroup Condition="'$(TmpRegressionProbe)'=='true'"><Compile Include="..\..\tests\TmpRegressionProbe.cs" /></ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Rlyeh.Localizer.Core\Rlyeh.Localizer.Core.csproj" />
+    <Reference Include="$(LoaderDir)\*.dll" Exclude="$(LoaderDir)\dobby.dll"><Private>false</Private></Reference>
+    <Reference Include="$(InteropDir)\*.dll"><Private>false</Private></Reference>
+  </ItemGroup>
+  <Target Name="ValidateGameReferences" BeforeTargets="ResolveAssemblyReferences">
+    <Error Condition="!Exists('$(LoaderDir)\BepInEx.Unity.IL2CPP.dll')" Text="Set GameDir or LoaderDir to an installation with BepInEx IL2CPP." />
+    <Error Condition="!Exists('$(InteropDir)\Assembly-CSharp.dll')" Text="Run the target game with BepInEx once to generate interop, or set InteropDir." />
+  </Target>
+</Project>
