@@ -22,6 +22,12 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\Install.ps1 -Mode Inst
 실행 정책 옵션은 해당 프로세스에만 적용되며 시스템 정책을 변경하지 않습니다.
 새 패키지를 풀 때 이전 패키지 폴더 위에 덮어 풀지 마세요.
 
+## RC3에서 업데이트
+
+게임을 종료하고 v0.1.0 ZIP을 새 폴더에 풀어 같은 게임 경로에 설치합니다.
+RC3와 관리 파일이 모두 일치하면 설치 도구는 변경 0건을 표시합니다.
+이 경우 복구할 때는 기존 RC3 설치의 `manifest.json`을 사용합니다.
+
 ## 설정과 동봉 사전
 
 최초 실행 후 `BepInEx/config/local.rlyeh.korean.cfg`가 생성됩니다.

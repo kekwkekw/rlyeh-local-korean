@@ -1,11 +1,12 @@
 # 소스와 재빌드 안내
 
 설치 ZIP의 `sources/` 안에 해당 배포본의 소스를 함께 제공합니다. 별도 요청이나 비밀번호가 필요하지 않습니다.
-공개 GitHub 저장소는 실기 검증 후 게시할 예정이며, 현재 존재하지 않는 공개 주소를 안내하지 않습니다.
+공개 소스는 [Rlyeh Local Korean 저장소](https://github.com/kekwkekw/rlyeh-local-korean)에 있습니다.
+이 패키지의 대응 소스와 해시는 [v0.1.0 릴리스](https://github.com/kekwkekw/rlyeh-local-korean/releases/tag/v0.1.0)에서 제공합니다.
 
 | 구성요소 | 동봉 소스 | 버전/기준 |
 |---|---|---|
-| Rlyeh Local Korean | `rlyeh-localizer-0.1.0-rc3-source.zip` | 이번 ZIP의 코드·용어집·문장집·설치/패키징 도구 |
+| Rlyeh Local Korean | `rlyeh-localizer-0.1.0-source.zip` | 이번 ZIP의 코드·용어집·문장집·설치/패키징 도구 |
 | hdTrans | `hdTrans-0.9.5-source.zip` | `acd67a792a99ac5da3d6622d4d3dd203e957acd1`, 수정 없음 |
 | BepInEx | `BepInEx-be.785-source.zip` | `6abdba47eeebe08552282e7a58ef0f4a9ab60b62`, 수정 없음 |
 | Il2CppInterop | `Il2CppInterop-1.5.3-rlyeh-source.zip` | `dbda1cb353b0f4253345dc45136d170b9e50a5a0` + Unity 6000.3 resolver 수정 |

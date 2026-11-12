@@ -3,7 +3,7 @@ from pathlib import Path
 import argparse, hashlib, json, shutil, zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = '0.1.0-rc3'
+VERSION = '0.1.0'
 DATE = (2026, 11, 13, 0, 0, 0)
 SOURCE_ZIPS = ['hdTrans-0.9.5-source.zip', 'BepInEx-be.785-source.zip',
                'Il2CppInterop-1.5.3-rlyeh-source.zip', 'UnityDoorstop-4.5.0-source.zip',
@@ -96,7 +96,7 @@ def main():
     contents=[{'path':p.relative_to(package).as_posix(),'size':p.stat().st_size,'sha256':sha(p)}
               for p in sorted(package.rglob('*')) if p.is_file()]
     manifest={'schema':1,'version':VERSION,'preparedDate':'2026-11-13','hdTrans':'0.9.5',
-              'status':'release-candidate','files':contents}
+              'status':'stable','files':contents}
     (package/'package.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     archive(out/(package.name+'.zip'),[(package.name+'/'+p.relative_to(package).as_posix(),p) for p in package.rglob('*') if p.is_file()])
     zips=sorted(out.glob('*.zip'))

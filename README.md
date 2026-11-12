@@ -4,8 +4,9 @@
 검수한 게임 전용 용어집·UI/스킬 문장집과 **동봉 hdTrans 0.9.5**로 번역합니다.
 외부 번역 API, 번역 CDN, XUnity, Rlyeh_TextFix에 의존하지 않습니다.
 
-현재 패키지는 **0.1.0-rc3 / 2026-11-13 배포 후보**입니다.
-RC2와 동일한 게임 설치 파일을 사용하며, 기존 설정의 빈 사전 경로에 대한 설치 경고를 수정했습니다.
+현재 패키지는 **v0.1.0 / 2026-11-13 정식판**입니다.
+DMM Windows판 Unity 6000.3.5f2에서 설치·복구, 스토리 재생과 대표 메뉴를 검증했습니다.
+설치 파일과 대응 소스는 [GitHub Releases](https://github.com/kekwkekw/rlyeh-local-korean/releases)에서 제공합니다.
 
 ## 설치 파일
 
